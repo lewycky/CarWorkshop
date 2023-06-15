@@ -1,7 +1,7 @@
 # CarWorkshop
 
 Czym jest MVC?
-Skrót składa się z trzech wyrazó Model, View, Controller
+Skrót składa się z trzech wyrazów Model, View, Controller
 **Model** - dane, przesyłane z backendu na frontend i w drugą strone
 **View** - wygenerowany kod HTML, któy w przeglądarce wyświetli dane
 **Controller** - kod po stronie backendu, który jest w stanie obsłużyć zapytanie przychodzące do klienta i zwrócić odpowiedź
