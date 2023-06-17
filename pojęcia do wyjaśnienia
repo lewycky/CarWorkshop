@@ -1,0 +1,27 @@
+Wzorzec projektowy Kompozyt:
+
+  -służy do tworzenia struktury drzewiastej złożonej z obiektów, 
+  które można traktować jednolicie jako pojedyncze obiekty lub grupy obiektów. 
+  W .NET Core wzorzec Kompozyt może być wykorzystany, na przykład, do reprezentowania 
+  hierarchii elementów interfejsu użytkownika lub struktury katalogów i plików. 
+  Dzięki temu wzorcowi można traktować zarówno pojedyncze obiekty, jak i ich grupy, w spójny sposób.
+
+Wzorzec projektowy Obserwator:
+  -umożliwia utworzenie relacji "jeden do wielu" między obiektami, tak że gdy jeden obiekt zmienia swój stan,
+  wszyscy zależni od niego obserwatorzy zostają powiadomieni i mogą podjąć odpowiednie działania.
+  W .NET Core wzorzec Obserwator jest powszechnie używany w programowaniu zdarzeniowym. 
+  Można go zastosować, na przykład, do implementacji mechanizmu subskrypcji zdarzeń lub do obsługi komunikacji asynchronicznej.
+
+Wzorzec projektowy Strategia:
+ -pozwala na definiowanie zestawu algorytmów, które mogą być wymieniane i stosowane w sposób dynamiczny w trakcie
+działania programu. W .NET Core wzorzec Strategia może być użyty do dostarczania różnych implementacji dla określonego zachowania lub algorytmu. 
+Może być również stosowany w celu zwiększenia elastyczności i testowalności kodu poprzez oddzielenie algorytmów od klasy, która je wykorzystuje.
+
+Wzorzec projektowy Metoda Wytwórcza:
+  -definiuje interfejs dla tworzenia obiektów, ale pozostawia konkretne klasy podrzędne decyzji dotyczące tworzenia konkretnych instancji. 
+ W .NET Core wzorzec Metoda Wytwórcza może być wykorzystany w sytuacjach, gdy chcemy zdelegować tworzenie obiektów do konkretnej klasy podrzędnej, 
+ która jest odpowiedzialna za implementację szczegółów tworzenia. Przykładem zastosowania może być fabryka obiektów, która tworzy różne typy obiektów na podstawie określonych warunków.
+
+Wzorzec projektowy Dekorator:
+ -umożliwia dynamiczne dodawanie nowych funkcji do istniejących obiektów, nie zmieniając ich struktury. 
+ W .NET Core wzorzec Dekorator jest używany, gdy chcemy dodawać funkcjonalność do obiektów w sposób modularny
