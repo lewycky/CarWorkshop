@@ -18,9 +18,12 @@ Drugim najcześciej używanym przypadkiem to komunikacja w drugą stronę czyli 
 **Architektura i biblioteki użyte w projekcie:**
 Bootrstrap - biblioteka frontendowa zawierająca zbiór predefiniowanych klas css
 Clean Architecture - schemat wykorzystywany w separacji zagadnień, wyznacza cztery główne moduły systemu: Presentation, Appliacation, Domain, Infrastructure
-Entity Framework - Entity Framework umożliwia deweloperom pracę z danymi w postaci obiektów i właściwości specyficznych dla domeny, takich jak klienci i adresy klientów, bez konieczności   
-  samodzielnej pracy z bazowymi tabelami i kolumnami bazy danych. Jeden z najpopularniejszych narzędzi ORM
-FluentValidation - jest biblioteką, która pozwala pisać reguły walidacyjne za pomocą interfejsu fluent
+
+Entity Framework - Entity Framework umożliwia deweloperom pracę z danymi w postaci obiektów i właściwości specyficznych dla domeny, takich jak klienci i adresy klientów, bez konieczności samodzielnej pracy z bazowymi tabelami i kolumnami bazy danych. Jeden z najpopularniejszych narzędzi ORM.
+  
+FluentValidation - jest biblioteką, która pozwala pisać reguły walidacyjne za pomocą interfejsu fluent.
+
+
 
 
 
