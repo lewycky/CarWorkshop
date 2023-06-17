@@ -16,6 +16,7 @@ W kontekście komunikacji architektury MVC możemy wyróżnić dwa główne przy
 Drugim najcześciej używanym przypadkiem to komunikacja w drugą stronę czyli 2.PRZESYLANIE NA NASZ SERWER, w takim przypadku na widoku **View** model jest formowany na podstawie formularza przez który użytkownik jest w stanie wporwadzić dane po czym odpowiednio wykonujac metode taki formularz może zostać wysłany na backend.
 
 **Architektura i biblioteki użyte w projekcie:**
+
 Bootrstrap - biblioteka frontendowa zawierająca zbiór predefiniowanych klas css
 Clean Architecture - schemat wykorzystywany w separacji zagadnień, wyznacza cztery główne moduły systemu: Presentation, Appliacation, Domain, Infrastructure
 
